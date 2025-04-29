@@ -41,7 +41,7 @@ Spiral and circular trajectory tracking under external disturbances.
 Robustness validation under measurement noise and model uncertainty.
 
 🖥️ Software Requirements
-MATLAB R2024a or newer
+MATLAB R2023a or newer
 
 Simulink (with Control System Toolbox)
 
