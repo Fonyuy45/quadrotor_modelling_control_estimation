@@ -1,4 +1,6 @@
 # Quadrotor Modelling, Control, and State Estimation
+![image](https://github.com/user-attachments/assets/1a1c7923-8f44-47f4-a9c8-7d688e103cf1)
+
 
 This repository contains the modeling, control design, and state estimation of a quadrotor UAV using MATLAB and Simulink. The work covers both linear and nonlinear models, optimal control strategies, disturbance rejection, and full-state estimation with an Extended Kalman Filter (EKF).
 
