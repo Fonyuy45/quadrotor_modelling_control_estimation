@@ -35,14 +35,20 @@ Extended Kalman Filter (EKF): Implemented to perform real-time state estimation 
 
 📈 Simulations
 Regulation from initial roll, pitch, yaw disturbances.
+![Spiral-Helix-Trajectory-Tracking](https://github.com/user-attachments/assets/693e8158-5969-4bb6-ab6d-57b9c0313354)
 
 Full 3D point-to-point reference tracking.
 
 Spiral, Rectangular, Linear, and circular trajectory tracking under parameter variations external disturbances.
+![3D Rectangual-trajectory-Tracking](https://github.com/user-attachments/assets/df116c1e-3387-410e-9b5d-3463d3112383)
+![3D circular trajectory tracking with kalman filter](https://github.com/user-attachments/assets/74470cac-5d03-4e3b-a951-a2acc81fb67c)
+
 
 Hover position hold under parametr variations and external disturbances
+![Screenshot 2025-04-19 195344](https://github.com/user-attachments/assets/45caec14-d58a-4870-99f2-8f9941832096)
 
 Robustness validation under measurement noise and model uncertainty.
+![Spiral Trajectory tarcking under heavy disturbances](https://github.com/user-attachments/assets/9f3be7ce-bef9-47e0-9845-2efee398f0ef)
 
 🖥️ Software Requirements
 MATLAB R2024a or newer
