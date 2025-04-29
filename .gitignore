@@ -12,9 +12,20 @@
 *.mex*
 *.log
 
-# Ignore Simulink simulation cache
+# MATLAB crash logs
+matlab_crash_dump.*.log
+
+# MATLAB/Simulink temporary files
+*.rpt
+*.mldatx
+*.sldd
+*.sfx
+*.slxp
+
+# Simulink simulation cache
 slprj/
 simulinkcache/
+work/
 
 # Ignore hidden system files
 .DS_Store
