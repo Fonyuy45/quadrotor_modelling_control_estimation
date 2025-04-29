@@ -36,7 +36,9 @@ Regulation from initial roll, pitch, yaw disturbances.
 
 Full 3D point-to-point reference tracking.
 
-Spiral and circular trajectory tracking under external disturbances.
+Spiral, Rectangular, Linear, and circular trajectory tracking under parameter variations external disturbances.
+
+Hover position hold under parametr variations and external disturbances
 
 Robustness validation under measurement noise and model uncertainty.
 
