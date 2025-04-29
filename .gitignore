@@ -1,0 +1,25 @@
+# Ignore Simulink backup and autosave files
+*.asv
+*.autosave
+*.slxc
+*.mdl.*
+*.bak
+*.slx.autosave
+
+# Ignore MATLAB data and cache files
+*.mat
+*.fig
+*.mex*
+*.log
+
+# Ignore Simulink simulation cache
+slprj/
+simulinkcache/
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
+
+# IDE settings (optional)
+.vscode/
+.idea/
