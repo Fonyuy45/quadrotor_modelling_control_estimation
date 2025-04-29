@@ -45,7 +45,8 @@ The quadrotor is modeled using two coordinate systems:
 - **Global Frame (G):** Inertial world reference
 - **Body Frame (b):** Attached to quadrotor center of mass
 
-![Quadrotor Reference Frames](../simulink_models/plots/quadrotor_frames.png)
+![image](https://github.com/user-attachments/assets/aa017e75-9738-4985-923e-795d49690a02)
+
 
 Rotations between frames are handled via ZYX Euler angles: `yaw (ψ)`, `pitch (θ)`, `roll (ϕ)`.
 
