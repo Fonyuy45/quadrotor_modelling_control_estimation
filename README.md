@@ -24,7 +24,7 @@ This repository contains the modeling, control design, and state estimation of a
 ```plaintext
 quadrotor_modelling_control_estimation/
 ├── simulink_models/       # Simulink files (.slx) for linear and nonlinear models
-├── matlab scripts/        # MATLAB scripts for control design, linearization, analysis
+├── matlab scripts/        # MATLAB scripts for modelled dynamics, control design, linearization, Kalman filter, analysis
 ├── ekf_scripts/           # EKF-related MATLAB functions
 ├── ekf_estimator/         # Simulink models for EKF estimation
 └── .gitignore             # Files/folders ignored by Git
