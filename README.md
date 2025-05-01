@@ -39,7 +39,7 @@ Integral Action: Augmented the system to guarantee zero steady-state error for p
 
 Extended Kalman Filter (EKF): Implemented to perform real-time state estimation under noisy sensor conditions.
 
-📈 Simulations
+Simulations
 Regulation from initial roll, pitch, yaw disturbances.
 
 Full 3D point-to-point reference tracking.
@@ -51,14 +51,14 @@ Hover position hold under parametr variations and external disturbances
 Robustness validation under measurement noise and model uncertainty.
 
 
-🖥️ Software Requirements
+Software Requirements
 MATLAB R2023a or newer
 
 Simulink (with Control System Toolbox)
 
 (Optional) Simscape for 3D visualization
 
-🚀 To Run Simulations
+To Run Simulations
 Open simulink_models/quadrotor_nonlinear_model.slx for nonlinear model simulations.
 
 Open lqr_integral_nonlinear_simulation.slx to simulate the LQR + integral controller.
