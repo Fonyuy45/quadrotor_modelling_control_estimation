@@ -69,8 +69,8 @@ Use trajectory_tracking.slx for 3D path tracking.
 
 Launch ekf_estimator/ekf_estimator_model.slx for state estimation with noisy measurements.
 
-📜 License
+License
 This project is licensed under the MIT License.
 
-✍️ Author
-Dieudonne Fonyuy
+Author
+Dieudonne Fonyuy YUFONYUY
