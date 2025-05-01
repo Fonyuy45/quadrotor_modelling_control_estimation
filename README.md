@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/1a1c7923-8f44-47f4-a9c8-7d688e103cf1)
 
 
-This repository contains the modeling, control design, and state estimation of a quadrotor UAV using MATLAB and Simulink. The work covers both linear and nonlinear models, optimal control strategies, disturbance rejection, and full-state estimation with an Extended Kalman Filter (EKF).
+This repository contains the modeling, control design, and state estimation of a quadrotor UAV using MATLAB and Simulink. The work covers both Linear and Nonlinear models, Optimal Control Strategies, disturbance rejection, robustness under parametr variations, and full-state estimation with Kalman Filter (Linearised system) and an Extended Kalman Filter (EKF) for the Nonlinear system.
 
 ## ✈️ Project Highlights
 - Full 6-DOF **nonlinear quadrotor dynamics** implemented in Simulink and MATLAB Function blocks.
@@ -20,7 +20,7 @@ This repository contains the modeling, control design, and state estimation of a
 ![Spiral Trajectory tarcking under heavy disturbances](https://github.com/user-attachments/assets/9f3be7ce-bef9-47e0-9845-2efee398f0ef)
 ![Screenshot 2025-04-19 195344](https://github.com/user-attachments/assets/45caec14-d58a-4870-99f2-8f9941832096)
 
-## 🛠️ Repository Structure
+## 🛠Repository Structure
 ```plaintext
 quadrotor_modelling_control_estimation/
 ├── simulink_models/       # Simulink files (.slx) for linear and nonlinear models
@@ -30,14 +30,16 @@ quadrotor_modelling_control_estimation/
 └── .gitignore             # Files/folders ignored by Git
 
 
-🧠 Methods
+Methods
 State-Space Modeling: Derived from first principles (Newton-Euler dynamics).
 
 Linear Quadratic Regulator (LQR): Designed for the linearized system to achieve optimal stabilization.
 
 Integral Action: Augmented the system to guarantee zero steady-state error for position tracking.
 
-Extended Kalman Filter (EKF): Implemented to perform real-time state estimation under noisy sensor conditions.
+kalman Filter: Implemented to perform real-time state estimation under noisy sensor conditions for Linearised system
+
+Extended Kalman Filter (EKF): Implemented to perform real-time state estimation under noisy sensor conditions For NonLinear system.
 
 Simulations
 Regulation from initial roll, pitch, yaw disturbances.
