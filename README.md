@@ -1,6 +1,9 @@
-# Quadrotor Modelling, Control, and State Estimation
-![image](https://github.com/user-attachments/assets/1a1c7923-8f44-47f4-a9c8-7d688e103cf1)
+# Quadrotor Modelling, Control, and State Estimation/ ROS2 PX4 Integration
 
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/6fc29fef-8e73-4f1d-b6a7-a6c6eb06c021)
+
+
+![image](https://github.com/user-attachments/assets/1a1c7923-8f44-47f4-a9c8-7d688e103cf1)
 
 This repository contains the modeling, control design, and state estimation of a quadrotor UAV using MATLAB and Simulink. The work covers both Linear and Nonlinear models, Optimal Control Strategies, disturbance rejection, robustness under parametr variations, and full-state estimation with Kalman Filter (Linearised system) and an Extended Kalman Filter (EKF) for the Nonlinear system.
 
