@@ -1,6 +1,6 @@
 # Quadrotor Modelling, Control, and State Estimation
 
-<video controls style="width: 80%; max-width: 800px;">
+<video width="100%" controls>
   <source src="https://github.com/user-attachments/assets/6fc29fef-8e73-4f1d-b6a7-a6c6eb06c021" type="video/mp4">
 </video>
 
